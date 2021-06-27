@@ -1,0 +1,795 @@
+@media only screen and (max-width: 1200px) {
+
+    .header_center {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap:0.7cm;
+        padding-left: 20px;
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+    }
+
+    .text_questionnaire {
+        padding-left:10px;
+        padding-top: 4cm;
+        font-size: 70px;
+        font-weight: 100 Thin;
+        font-family: "Roboto", sans-serif;
+      }
+
+
+
+
+      .information {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300 Light;
+        font-size: 29.98px;
+        padding-left: 10px;
+        padding-top: 0.8cm;
+      }
+
+      .name {
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .year {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .place {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .skype {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .email {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+
+      .box {
+        height:420px;
+        margin-top: 1.7cm;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block;
+        
+      }
+
+      .check_two {
+        
+        height: 120px;
+        width: 240px;
+        margin-left: 0cm;
+      }
+
+      .check_three {
+        height: 120px;
+        width: 240px;
+        margin-left: 0cm;
+      }
+
+      .js_skills_text_two {
+        font-family: "Roboto", sans-serif;
+        padding-left: 2cm;
+      }
+      
+      .js_skills_text_three {
+        padding-left: 2.6cm;
+        font-family: "Roboto", sans-serif;
+      }
+
+      .like {
+        height:5.5cm;
+        width: 7.1cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        color: silver;
+        font-weight: bold;
+        margin-top: 1.7cm;
+        resize: none;
+      }
+
+      .me_area {
+        height: 5.5cm;
+        width: 17.1cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 17px;
+        color: #726f6f;
+        font-weight: bold;
+        margin-top: 1.7cm;
+        resize: none;
+      }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .header_center {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap:0.7cm;
+        padding-left: 20px;
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+    }
+
+    .text_questionnaire {
+        padding-left:10px;
+        padding-top: 4cm;
+        font-size: 70px;
+        font-weight: 100 Thin;
+        font-family: "Roboto", sans-serif;
+      }
+
+
+
+
+      .information {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300 Light;
+        font-size: 29.98px;
+        padding-left: 10px;
+        padding-top: 0.8cm;
+      }
+
+      .name {
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .year {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .place {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .skype {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .email {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+
+      .box {
+        height:420px;
+        margin-top: 1.7cm;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block;
+        
+      }
+
+      .check_two {
+        
+        height: 120px;
+        width: 240px;
+        margin-left: 0cm;
+      }
+
+      .check_three {
+        height: 120px;
+        width: 240px;
+        margin-left: 0cm;
+      }
+
+      .js_skills_text_two {
+        font-family: "Roboto", sans-serif;
+        padding-left: 2cm;
+      }
+      
+      .js_skills_text_three {
+        padding-left: 2.6cm;
+        font-family: "Roboto", sans-serif;
+      }
+
+      .like {
+        height:5.5cm;
+        width: 7.1cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        color: silver;
+        font-weight: bold;
+        margin-top: 1.7cm;
+        resize: none;
+      }
+
+      .me_area {
+        height: 5.5cm;
+        width: 17.1cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 17px;
+        color: #726f6f;
+        font-weight: bold;
+        margin-top: 1.7cm;
+        resize: none;
+      }
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+
+   
+
+    .header_center {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap:0.7cm;
+        padding-left: 20px;
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+    }
+
+    .text_questionnaire {
+        padding-left:10px;
+        padding-top: 4cm;
+        font-size: 70px;
+        font-weight: 100 Thin;
+        font-family: "Roboto", sans-serif;
+      }
+
+
+
+
+      .information {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300 Light;
+        font-size: 29.98px;
+        padding-left: 10px;
+        padding-top: 0.8cm;
+      }
+
+      .name {
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .year {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .place {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .skype {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .email {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+
+      .box {
+        height:420px;
+        margin-top: 1.7cm;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block;
+        
+      }
+
+      .check_two {
+        
+        height: 120px;
+        width: 240px;
+        margin-left: 0cm;
+      }
+
+      .check_three {
+        height: 120px;
+        width: 240px;
+        margin-left: 0cm;
+      }
+
+      .js_skills_text_two {
+        font-family: "Roboto", sans-serif;
+        padding-left: 2cm;
+      }
+      
+      .js_skills_text_three {
+        padding-left: 2.6cm;
+        font-family: "Roboto", sans-serif;
+      }
+
+      .like {
+        height:5.5cm;
+        width: 7.1cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        color: silver;
+        font-weight: bold;
+        margin-top: 1.7cm;
+        resize: none;
+      }
+
+      .me_area {
+        height: 5.5cm;
+        width: 17.1cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 17px;
+        color: #726f6f;
+        font-weight: bold;
+        margin-top: 1.7cm;
+        resize: none;
+      }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .header_center {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap:0.7cm;
+        padding-left: 20px;
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+    }
+
+    
+
+
+    .text_questionnaire {
+        padding-left:10px;
+        padding-top: 4cm;
+        font-size: 70px;
+        font-weight: 100 Thin;
+        font-family: "Roboto", sans-serif;
+      }
+
+
+
+
+      .information {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300 Light;
+        font-size: 29.98px;
+        padding-left: 10px;
+        padding-top: 0.8cm;
+      }
+
+      .name {
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .year {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .place {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .skype {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .email {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+
+      .box {
+        height:420px;
+        margin-top: 1.7cm;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block;
+        
+      }
+
+      .check_two {
+        
+        height: 120px;
+        width: 240px;
+        margin-left: 0cm;
+      }
+
+      .check_three {
+        height: 120px;
+        width: 240px;
+        margin-left: 0cm;
+      }
+
+      .js_skills_text_two {
+        font-family: "Roboto", sans-serif;
+        padding-left: 2cm;
+      }
+      
+      .js_skills_text_three {
+        padding-left: 2.6cm;
+        font-family: "Roboto", sans-serif;
+      }
+
+      .like {
+        height:5.5cm;
+        width: 7.1cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        color: silver;
+        font-weight: bold;
+        margin-top: 1.7cm;
+        resize: none;
+      }
+
+      .me_area {
+        height: 5.5cm;
+        width: 17.1cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 17px;
+        color: #726f6f;
+        font-weight: bold;
+        margin-top: 1.7cm;
+        resize: none;
+      }
+    
+}
+
+@media only screen and (max-width: 320px) {
+ 
+    .header_center {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap:0.7cm;
+        padding-left: 20px;
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+    }
+
+    .text_questionnaire {
+        padding-left:10px;
+        padding-top: 4cm;
+        font-size: 70px;
+        font-weight: 100 Thin;
+        font-family: "Roboto", sans-serif;
+      }
+
+
+
+
+      .information {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300 Light;
+        font-size: 29.98px;
+        padding-left: 10px;
+        padding-top: 0.8cm;
+      }
+
+      .name {
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .year {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .place {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .skype {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+      .email {
+        margin-top: 0.7cm;
+        height: 2cm;
+        width: 8cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        color: silver;
+        font-weight: bold;
+      }
+
+
+      .box {
+        height:420px;
+        margin-top: 1.7cm;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: block;
+        
+      }
+
+      .check_two {
+        
+        height: 120px;
+        width: 240px;
+        margin-left: 0cm;
+      }
+
+      .check_three {
+        height: 120px;
+        width: 240px;
+        margin-left: 0cm;
+      }
+
+      .js_skills_text_two {
+        font-family: "Roboto", sans-serif;
+        padding-left: 2cm;
+      }
+      
+      .js_skills_text_three {
+        padding-left: 2.6cm;
+        font-family: "Roboto", sans-serif;
+      }
+
+      .like {
+        height:5.5cm;
+        width: 7.1cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        color: silver;
+        font-weight: bold;
+        margin-top: 1.7cm;
+        resize: none;
+      }
+
+      .me_area {
+        height: 5.5cm;
+        width: 17.1cm;
+        border-radius: 7px;
+        border: 1px solid #b1b0b0;
+        font-family: "Roboto", sans-serif;
+        font-size: 17px;
+        color: #726f6f;
+        font-weight: bold;
+        margin-top: 1.7cm;
+        resize: none;
+      }
+
+}

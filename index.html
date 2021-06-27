@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="jquery/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Questionnaire</title>
+</head>
+
+<body>
+
+    <header class="header center">
+        <div class="header_center">
+            <a href="#sk">
+                <p>Личная информация</p>
+            </a>
+            <a href="#op">
+                <p>Опыт</p>
+            </a>
+            <a href="#jss">
+                <p>JavaScript</p>
+            </a>
+            <a href="#os">
+                <p>О себе</p>
+            </a>
+        </div>
+    </header>
+    <hr>
+    <section class="block center">
+        <div class="central_unit">
+            <p class="text_questionnaire">Анкета</p>
+
+            <p class="logo_one"><img src="image/logo_two.png" alt="logo"></p>
+
+            <p class="information" id="sk">Личная информация</p>
+
+            <div class="forms">
+                <p> <input type="text" class="name" value="Спиренков Сергей Алексеевич" readonly> <br>
+                    <select class="year" id="select_">
+                        <option>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2003
+                        </option>
+                        <option>
+                            &nbsp;&nbsp;&nbsp;&nbsp;Другого
+                            быть не может)</option>
+                    </select><br>
+                    <input type="text" class="place" value="Г.Оренбург" readonly><br>
+                    <input type="text" class="skype" id="" value="alex333245" readonly><br>
+                    <input type="text" class="email" value="nest.alontos@yandex.ru" readonly><br>
+                </p>
+            </div>
+            <p class="logo_two"> <img src="image/logo_three.png" alt="logo"></p>
+            <p class="experience" id="op">Расскажите о своем опыте</p>
+
+            <div class="box">
+                <div class="check_one">
+                    <label class="container">БЭМ/OOCSS
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Stylus/LESS/SASS
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Работаю с SVG
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="check_two">
+                    <label class="container_2">Верстаю семантично
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container_2">ES2015/ES2016
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container_2">Gulp/GRUNT
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="check_three">
+                    <label class="container_3">Webpack
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container_3">JQure
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container_3">Используют Git
+                        <input type="checkbox">checked="checked"
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+            <p class="logo_three"> <img src="image/logo_four.png" alt="logo"></p>
+            <p class="level_skill" id="jss">Уровень владения JavaScript</p>
+
+            <div class="js_skills">
+                <p class="js_skills_text">Не владею</p>
+                <p class="js_skills_text_two">Использую готовые <br> решения</p>
+                <p class="js_skills_text_three">Использую готовые решения <br> и умею переделывать</p>
+                <p class="js_skills_text_three">Пишу сложный JS с нуля</p>
+            </div>
+            <div id="polzunok"></div>
+            <b class="percentages">Знание JavaScript в процентах: <span style="color:green"
+                    id="result-polzunok"></span></b>
+
+            <p class="logo_four"><img src="image/logo_one.png" alt="logo"></p>
+            <p class="about_me" id="os">Расскажите о себе</p>
+
+            <p class="me_text">
+
+                <textarea name="a" id="a" cols="30" rows="10"
+                    class="me_area">Приветствую, меня зовут Сергей, мне 17 лет. Проживаю в Г.Оренбург. С 14 лет увлекаюсь программированием. Изначально разрабатывал скрипты для игры SAMP. Затем начал изучать web-разработку. На данный момент я заканчиваю 2-й курс колледжа по специальности Информационные системы и программирование, квалификация "специалист по информационным системам". Параллельно учусь в интернет-университете "GeekBrains" на факультет веб-разработки. Владею html,css, JavaScript (На среднем уровне), в том числе и ООП. Знаю поверхностно такие библиотеки, как Jquery, Vue. О себе могу рассказать только что, что я коммуникабельный, открыт к новым возможностям и готов развиваться в данном направлении. </textarea>
+
+            </p>
+
+            <p class="vacancy">Напишите несколько предложений, чем привлекла наша вакансия <br>
+                и что вы ожидаете от работы у нас.
+            </p>
+            <p class="like_text">
+
+                <textarea name="b" id="b" cols="30" rows="10"
+                    class="like">Понравилась тем, что работая у Вас, я смогу получить очень хороший опыт в разработке web. Так как Ваша организация разрабатывает большое количество различных сайтов и занимает хорошие позиции на рынке. От работы я ожидаю получение опыта в разработке, а также  новые знакомства с профессионалами. </textarea>
+            </p>
+
+            <p class="btn_text"><button>Готово</button></p>
+
+        </div>
+    </section>
+
+
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script src="jquery/jquery.ui.touch-punch.min.js"></script>
+    <script src="jquery/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
