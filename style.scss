@@ -1,0 +1,457 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.body {
+	font-family: "Roboto", sans-serif;
+}
+
+.center {
+	padding-left: calc(50% - 570px);
+	padding-right: calc(50% - 570px);
+}
+
+.header {
+	height: 20px;
+	font-size: 20px;
+	height: 2cm;
+	display: flex;
+}
+
+.header_center {
+	display: flex;
+	align-items: center;
+	gap: 2cm;
+	padding-left: 280px;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.central_unit {
+	height: 2870px;
+}
+
+.text_questionnaire {
+	text-align: center;
+	padding-top: 4cm;
+	font-size: 70px;
+	font-weight: 100 Thin;
+	font-family: "Roboto", sans-serif;
+}
+
+.logo_one {
+	text-align: center;
+	padding-top: 2cm;
+}
+
+.information {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300 Light;
+	font-size: 29.98px;
+	text-align: center;
+	padding-top: 0.8cm;
+}
+
+.forms {
+	height: 495px;
+	margin-top: 1.5cm;
+}
+
+.forms {
+	text-align: center;
+}
+
+.name {
+	height: 2cm;
+	width: 15.5cm;
+	border-radius: 7px;
+	border: 1px solid #b1b0b0;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 28px;
+	color: silver;
+	font-weight: bold;
+}
+
+.year {
+	margin-top: 0.7cm;
+	height: 2cm;
+	width: 9.9cm;
+	border-radius: 7px;
+	border: 1px solid #b1b0b0;
+	font-family: "Roboto", sans-serif;
+	font-size: 28px;
+	color: silver;
+	font-weight: bold;
+}
+
+.place {
+	margin-top: 0.7cm;
+	height: 2cm;
+	width: 15.5cm;
+	border-radius: 7px;
+	border: 1px solid #b1b0b0;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 28px;
+	color: silver;
+	font-weight: bold;
+}
+
+.skype {
+	margin-top: 0.7cm;
+	height: 2cm;
+	width: 15.5cm;
+	border-radius: 7px;
+	border: 1px solid #b1b0b0;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 28px;
+	color: silver;
+	font-weight: bold;
+}
+
+.email {
+	margin-top: 0.7cm;
+	height: 2cm;
+	width: 15.5cm;
+	border-radius: 7px;
+	border: 1px solid #b1b0b0;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 28px;
+	color: silver;
+	font-weight: bold;
+}
+
+.logo_two {
+	text-align: center;
+	padding-top: 2.2cm;
+}
+
+.experience {
+	text-align: center;
+	padding-top: 1cm;
+	font-size: 40px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300 Light;
+}
+
+.box {
+	height: 120px;
+	margin-top: 1.7cm;
+	display: flex;
+}
+
+.check_one {
+	height: 120px;
+	width: 240px;
+}
+
+.check_two {
+	height: 120px;
+	width: 240px;
+	margin-left: 4.5cm;
+}
+
+.check_three {
+	height: 120px;
+	width: 240px;
+	margin-left: 3.5cm;
+}
+
+.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300 Light;
+	user-select: none;
+}
+
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 22px;
+	width: 22px;
+	background-color: white;
+	border: 1px solid blue;
+	border-radius: 3px;
+}
+
+.container:hover input ~ .checkmark {
+	background-color: white;
+}
+
+.container input:checked ~ .checkmark {
+	background-color: #2196f3;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+
+.container .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid #2c06b3;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.container_2 {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300 Light;
+	user-select: none;
+}
+
+.container_2 input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 22px;
+	width: 22px;
+	background-color: white;
+	border: 1px solid blue;
+	border-radius: 3px;
+}
+
+.container_2:hover input ~ .checkmark {
+	background-color: white;
+}
+
+.container_2 input:checked ~ .checkmark {
+	background-color: #2196f3;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.container_2 input:checked ~ .checkmark:after {
+	display: block;
+}
+
+.container_2 .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid #2c06b3;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.container_3 {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300 Light;
+	user-select: none;
+}
+
+.container_3 input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 22px;
+	width: 22px;
+	background-color: white;
+	border: 1px solid blue;
+	border-radius: 3px;
+}
+
+.container_3:hover input ~ .checkmark {
+	background-color: white;
+}
+
+.container_3 input:checked ~ .checkmark {
+	background-color: #2196f3;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.container_3 input:checked ~ .checkmark:after {
+	display: block;
+}
+
+.container_3 .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid #2c06b3;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.logo_three {
+	text-align: center;
+	padding-top: 4.2cm;
+}
+
+.level_skill {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300 Light;
+	font-size: 29px;
+	padding-top: 0.8cm;
+}
+
+.js_skills {
+	display: flex;
+	margin-top: 1.5cm;
+	margin-bottom: 0.9cm;
+	font-family: "Roboto", sans-serif;
+}
+
+.js_skills_text_two {
+	font-family: "Roboto", sans-serif;
+	padding-left: 5.1cm;
+}
+
+.js_skills_text_three {
+	padding-left: 2.6cm;
+	font-family: "Roboto", sans-serif;
+}
+
+.percentages {
+	font-family: "Roboto", sans-serif;
+	padding-top: 6px;
+}
+
+.logo_four {
+	text-align: center;
+	padding-top: 3cm;
+}
+
+.about_me {
+	text-align: center;
+	padding-top: 1cm;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300 Light;
+	font-size: 29px;
+}
+
+.vacancy {
+	text-align: center;
+	padding-top: 0.7cm;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300 Light;
+	font-size: 20px;
+}
+
+.like_text {
+	text-align: center;
+}
+
+.like {
+	height: 5.5cm;
+	width: 17.1cm;
+	border-radius: 7px;
+	border: 1px solid #b1b0b0;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	color: silver;
+	font-weight: bold;
+	margin-top: 1.7cm;
+	resize: none;
+}
+
+.me_text {
+	text-align: center;
+}
+
+.me_area {
+	height: 5.5cm;
+	width: 17.1cm;
+	border-radius: 7px;
+	border: 1px solid #b1b0b0;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+	color: #726f6f;
+	font-weight: bold;
+	margin-top: 1.7cm;
+	resize: none;
+}
+
+button {
+	background-color: #1567e0;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 2cm;
+	cursor: pointer;
+}
+
+.btn_text {
+	text-align: center;
+}
